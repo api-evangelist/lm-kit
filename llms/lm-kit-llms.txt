@@ -1,0 +1,222 @@
+# LM-Kit
+
+> LM-Kit is a Private Document Intelligence platform. It turns sensitive documents into structured data, cited knowledge and governed actions inside infrastructure the customer controls. Two delivery forms share one engine: LM-Kit One, a private AI application server you deploy, and LM-Kit.NET, a local AI runtime you embed in a .NET application. Both run fully on-device with no cloud calls, or expose selected capabilities to external assistants through governed MCP tools.
+
+- Private AI, defined: AI models and the data, indexes, agents and tools around them running inside infrastructure the organization controls, so nothing reaches a third party unless an operator explicitly allows it, and outputs carry checkable evidence. Full definition: https://lm-kit.com/private-ai/
+- Stance: for us, privacy is a commitment; local is how we keep it. Every LM-Kit deployment runs on hardware the customer controls; that is the mechanism, and the commitment is the promise it enforces.
+- Category: Private Document Intelligence
+- Promise: private AI for documents and internal knowledge
+- Vendor: LM-Kit, part of the Calico IIM Group
+- Products: LM-Kit One (private AI application server), LM-Kit.NET (embedded .NET runtime)
+- Capabilities: OCR and document conversion, schema-constrained extraction with per-field confidence, hybrid lexical and semantic search with document and page citations, reviewed and permanent redaction, PDF operations, named agents with governed tools, speech, vision, fine-tuning and model management
+- Interfaces: native REST, OpenAI-compatible, Ollama and Anthropic dialects, MCP, admin console
+- Runtime: C# / .NET Standard 2.0, .NET 8 / 9 / 10
+- Platforms: Windows, Linux, macOS (CPU, CUDA, Vulkan, Metal backends)
+- Licensing: no license key, nothing checked at runtime. Free for companies under $1M USD annual gross revenue with 10 or fewer employees that have raised no more than $3M USD; evaluation and development free at any size. Professional licensing above that.
+- Documentation: https://docs.lm-kit.com/
+- Source, samples and models: https://github.com/LM-Kit
+
+## Start here
+- [Home](https://lm-kit.com/)
+- [Private AI](https://lm-kit.com/private-ai/)
+- [Private Document Intelligence](https://lm-kit.com/private-document-intelligence/)
+- [Products](https://lm-kit.com/products/)
+- [Lm Kit One](https://lm-kit.com/products/lm-kit-one/)
+- [LM-Kit.NET](https://lm-kit.com/products/lm-kit-net/)
+- [Quickstart](https://lm-kit.com/quickstart/)
+- [Lm Kit One](https://lm-kit.com/quickstart/lm-kit-one/)
+- [Lm Kit One](https://lm-kit.com/products/download/lm-kit-one/)
+- [LM-Kit.NET](https://lm-kit.com/products/download/lm-kit-net/)
+- [Pricing](https://lm-kit.com/pricing/)
+- [Contact](https://lm-kit.com/contact/)
+## Products
+- [Community Edition](https://lm-kit.com/products/community-edition/)
+- [From Azure Openai](https://lm-kit.com/products/lm-kit-net/from-azure-openai/)
+- [Coding Agents](https://lm-kit.com/products/lm-kit-one/coding-agents/)
+- [Compatibility](https://lm-kit.com/products/lm-kit-one/compatibility/)
+- [From Anthropic](https://lm-kit.com/products/lm-kit-one/from-anthropic/)
+- [From Ollama](https://lm-kit.com/products/lm-kit-one/from-ollama/)
+- [From Openai](https://lm-kit.com/products/lm-kit-one/from-openai/)
+- [Open Webui](https://lm-kit.com/products/lm-kit-one/open-webui/)
+- [Security](https://lm-kit.com/products/lm-kit-one/security/)
+- [Vs Lm Studio](https://lm-kit.com/products/lm-kit-one/vs-lm-studio/)
+- [Vs Localai](https://lm-kit.com/products/lm-kit-one/vs-localai/)
+- [Vs Nvidia Nim](https://lm-kit.com/products/lm-kit-one/vs-nvidia-nim/)
+- [Vs Ollama](https://lm-kit.com/products/lm-kit-one/vs-ollama/)
+- [Vs Superlinked Sie](https://lm-kit.com/products/lm-kit-one/vs-superlinked-sie/)
+- [Vs Vllm](https://lm-kit.com/products/lm-kit-one/vs-vllm/)
+## Solutions
+- [Solutions](https://lm-kit.com/solutions/)
+
+### AI Agents
+- [AI Agents](https://lm-kit.com/solutions/ai-agents/)
+- [Agent Memory](https://lm-kit.com/solutions/ai-agents/agent-memory/)
+- [Agent Reasoning](https://lm-kit.com/solutions/ai-agents/agent-reasoning/)
+- [Agent Skills](https://lm-kit.com/solutions/ai-agents/agent-skills/)
+- [Agent Templates](https://lm-kit.com/solutions/ai-agents/agent-templates/)
+- [Chatbots](https://lm-kit.com/solutions/ai-agents/chatbots/)
+- [Delegation](https://lm-kit.com/solutions/ai-agents/delegation/)
+- [Filter Pipeline](https://lm-kit.com/solutions/ai-agents/filter-pipeline/)
+- [Graph Orchestration](https://lm-kit.com/solutions/ai-agents/graph-orchestration/)
+- [MCP](https://lm-kit.com/solutions/ai-agents/mcp/)
+- [Multi-Agent Workflows](https://lm-kit.com/solutions/ai-agents/multi-agent-workflows/)
+- [Observability](https://lm-kit.com/solutions/ai-agents/observability/)
+- [Permissions](https://lm-kit.com/solutions/ai-agents/permissions/)
+- [Resilience](https://lm-kit.com/solutions/ai-agents/resilience/)
+- [Single Function Call](https://lm-kit.com/solutions/ai-agents/single-function-call/)
+- [Streaming](https://lm-kit.com/solutions/ai-agents/streaming/)
+- [Tools & Function Calling](https://lm-kit.com/solutions/ai-agents/tools-and-function-calling/)
+
+### Document Intelligence
+- [Document Intelligence](https://lm-kit.com/solutions/document-intelligence/)
+- [Chat with PDF](https://lm-kit.com/solutions/document-intelligence/chat-with-pdf/)
+- [Document Classification](https://lm-kit.com/solutions/document-intelligence/document-classification/)
+- [Document Conversion](https://lm-kit.com/solutions/document-intelligence/document-conversion/)
+- [Document Parsing](https://lm-kit.com/solutions/document-intelligence/document-parsing/)
+- [Document RAG](https://lm-kit.com/solutions/document-intelligence/document-rag/)
+- [Document Search](https://lm-kit.com/solutions/document-intelligence/document-search/)
+- [Document Splitting](https://lm-kit.com/solutions/document-intelligence/document-splitting/)
+- [Document Summarization](https://lm-kit.com/solutions/document-intelligence/document-summarization/)
+- [Document to Markdown](https://lm-kit.com/solutions/document-intelligence/document-to-markdown/)
+- [Email Processing](https://lm-kit.com/solutions/document-intelligence/email-processing/)
+- [Image Processing](https://lm-kit.com/solutions/document-intelligence/image-processing/)
+- [Layout Understanding](https://lm-kit.com/solutions/document-intelligence/layout-understanding/)
+- [OCR](https://lm-kit.com/solutions/document-intelligence/ocr/)
+- [Pdf Digital Signatures](https://lm-kit.com/solutions/document-intelligence/pdf-digital-signatures/)
+- [PDF Redaction](https://lm-kit.com/solutions/document-intelligence/pdf-redaction/)
+- [PDF to PDF/A](https://lm-kit.com/solutions/document-intelligence/pdf-to-pdfa/)
+- [PDF Toolkit](https://lm-kit.com/solutions/document-intelligence/pdf-toolkit/)
+- [Smart Redaction](https://lm-kit.com/solutions/document-intelligence/smart-redaction/)
+- [Structured Data Extraction](https://lm-kit.com/solutions/document-intelligence/structured-data-extraction/)
+
+### Vision & Multimodal
+- [Vision & Multimodal](https://lm-kit.com/solutions/vision/)
+- [Background Removal](https://lm-kit.com/solutions/vision/background-removal/)
+- [Chat with Image](https://lm-kit.com/solutions/vision/chat-with-image/)
+- [Image Classification](https://lm-kit.com/solutions/vision/image-classification/)
+- [Image Embeddings](https://lm-kit.com/solutions/vision/image-embeddings/)
+- [Image Labeling](https://lm-kit.com/solutions/vision/image-labeling/)
+- [Image Understanding](https://lm-kit.com/solutions/vision/image-understanding/)
+- [VLM OCR](https://lm-kit.com/solutions/vision/vlm-ocr/)
+
+### RAG & Knowledge
+- [RAG & Knowledge](https://lm-kit.com/solutions/rag-and-knowledge/)
+- [Data Extraction](https://lm-kit.com/solutions/rag-and-knowledge/data-extraction/)
+- [Embeddings](https://lm-kit.com/solutions/rag-and-knowledge/embeddings/)
+- [Query Expansion](https://lm-kit.com/solutions/rag-and-knowledge/query-expansion/)
+- [RAG Chat](https://lm-kit.com/solutions/rag-and-knowledge/rag-chat/)
+- [Reranker](https://lm-kit.com/solutions/rag-and-knowledge/reranker/)
+- [Vector Database](https://lm-kit.com/solutions/rag-and-knowledge/vector-database/)
+
+### Text Analysis
+- [Text Analysis](https://lm-kit.com/solutions/text-analysis/)
+- [Content Classification](https://lm-kit.com/solutions/text-analysis/content-classification/)
+- [Embeddings](https://lm-kit.com/solutions/text-analysis/embeddings/)
+- [Keyword Extraction](https://lm-kit.com/solutions/text-analysis/keyword-extraction/)
+- [Language Detection](https://lm-kit.com/solutions/text-analysis/language-detection/)
+- [Named Entity Recognition](https://lm-kit.com/solutions/text-analysis/named-entity-recognition/)
+- [PII Extraction](https://lm-kit.com/solutions/text-analysis/pii-extraction/)
+- [Sentiment Analysis](https://lm-kit.com/solutions/text-analysis/sentiment-analysis/)
+
+### Speech & Audio
+- [Speech & Audio](https://lm-kit.com/solutions/speech/)
+- [Audio Language Detection](https://lm-kit.com/solutions/speech/audio-language-detection/)
+- [Real-Time Transcription](https://lm-kit.com/solutions/speech/real-time-transcription/)
+- [Translation](https://lm-kit.com/solutions/speech/translation/)
+- [Voice Activity Detection](https://lm-kit.com/solutions/speech/voice-activity-detection/)
+
+### Text Generation
+- [Text Generation](https://lm-kit.com/solutions/text-generation/)
+- [Content Summarization](https://lm-kit.com/solutions/text-generation/content-summarization/)
+- [Conversations](https://lm-kit.com/solutions/text-generation/conversations/)
+- [Grammar & Spell Correction](https://lm-kit.com/solutions/text-generation/grammar-spell-correction/)
+- [Prompt Templates](https://lm-kit.com/solutions/text-generation/prompt-templates/)
+- [Structured Content Creation](https://lm-kit.com/solutions/text-generation/structured-content-creation/)
+- [Text Enhancement](https://lm-kit.com/solutions/text-generation/text-enhancement/)
+- [Text Translation](https://lm-kit.com/solutions/text-generation/text-translation/)
+
+### Local Inference
+- [Local Inference](https://lm-kit.com/solutions/local-inference/)
+- [Backends](https://lm-kit.com/solutions/local-inference/backends/)
+- [Context Hibernation](https://lm-kit.com/solutions/local-inference/context-hibernation/)
+- [Dynamic Sampling](https://lm-kit.com/solutions/local-inference/dynamic-sampling/)
+- [Encrypted Models](https://lm-kit.com/solutions/local-inference/encrypted-models/)
+- [Model Catalog](https://lm-kit.com/solutions/local-inference/model-catalog/)
+- [Multi-GPU](https://lm-kit.com/solutions/local-inference/multi-gpu/)
+- [Sampling Controls](https://lm-kit.com/solutions/local-inference/sampling-controls/)
+
+### Model Optimization
+- [Model Optimization](https://lm-kit.com/solutions/model-optimization/)
+- [LLM Fine-tuning](https://lm-kit.com/solutions/model-optimization/llm-finetuning/)
+- [LoRA Integration](https://lm-kit.com/solutions/model-optimization/lora-integration/)
+- [Model Quantization](https://lm-kit.com/solutions/model-optimization/model-quantization/)
+
+### Integrations
+- [Integrations](https://lm-kit.com/solutions/integrations/)
+- [Amazon Bedrock](https://lm-kit.com/solutions/integrations/amazon-bedrock/)
+- [Microsoft.Extensions.AI](https://lm-kit.com/solutions/integrations/extensions-ai/)
+- [Semantic Kernel](https://lm-kit.com/solutions/integrations/semantic-kernel/)
+## Why private AI
+- [Azure Document Intelligence Alternative](https://lm-kit.com/why-local-ai/azure-document-intelligence-alternative/)
+- [Cost & Performance](https://lm-kit.com/why-local-ai/cost-and-performance/)
+- [Edge Deployment](https://lm-kit.com/why-local-ai/edge-deployment/)
+- [Local vs Cloud](https://lm-kit.com/why-local-ai/local-vs-cloud/)
+- [Privacy, Security & Compliance](https://lm-kit.com/why-local-ai/privacy-security-compliance/)
+- [Sovereignty](https://lm-kit.com/why-local-ai/sovereignty/)
+- [Use Cases](https://lm-kit.com/why-local-ai/use-cases/)
+## Comparisons
+- [Comparisons](https://lm-kit.com/why-local-ai/compare/)
+- [LM-Kit vs Foundry Local](https://lm-kit.com/why-local-ai/compare/lm-kit-vs-foundry-local/)
+- [LM-Kit vs LangChain](https://lm-kit.com/why-local-ai/compare/lm-kit-vs-langchain/)
+- [LM-Kit vs LlamaSharp](https://lm-kit.com/why-local-ai/compare/lm-kit-vs-llama-sharp/)
+- [LM-Kit vs LlamaIndex](https://lm-kit.com/why-local-ai/compare/lm-kit-vs-llamaindex/)
+- [LM-Kit vs Microsoft Agent Framework](https://lm-kit.com/why-local-ai/compare/lm-kit-vs-microsoft-agent-framework/)
+- [LM-Kit vs Microsoft AutoGen](https://lm-kit.com/why-local-ai/compare/lm-kit-vs-microsoft-autogen/)
+- [LM-Kit vs Ollama](https://lm-kit.com/why-local-ai/compare/lm-kit-vs-ollama/)
+- [LM-Kit vs Onnx Runtime Genai](https://lm-kit.com/why-local-ai/compare/lm-kit-vs-onnx-runtime-genai/)
+- [LM-Kit vs Python Document Stacks](https://lm-kit.com/why-local-ai/compare/lm-kit-vs-python-document-stacks/)
+- [LM-Kit vs Semantic Kernel](https://lm-kit.com/why-local-ai/compare/lm-kit-vs-semantic-kernel/)
+## Blog
+- [Blog](https://lm-kit.com/blog/)
+- [Agent Skills Explained](https://lm-kit.com/blog/agent-skills-explained/)
+- [Building A Function Calling Agent With Lm Kit](https://lm-kit.com/blog/building-a-function-calling-agent-with-lm-kit/)
+- [Feed.Xml](https://lm-kit.com/blog/feed.xml/)
+- [Hello World](https://lm-kit.com/blog/hello-world/)
+- [Introducing Agent Memory](https://lm-kit.com/blog/introducing-agent-memory/)
+- [Introducing Document Parsing](https://lm-kit.com/blog/introducing-document-parsing/)
+- [Introducing Dynamic Sampling](https://lm-kit.com/blog/introducing-dynamic-sampling/)
+- [Introducing Keyword Extraction Api](https://lm-kit.com/blog/introducing-keyword-extraction-api/)
+- [Introducing New Multilingual Sentiment Analysis Model](https://lm-kit.com/blog/introducing-new-multilingual-sentiment-analysis-model/)
+- [Introducing Speech To Text Support](https://lm-kit.com/blog/introducing-speech-to-text-support/)
+- [Lm Kit Net Goes Agentic](https://lm-kit.com/blog/lm-kit-net-goes-agentic/)
+- [Lm Kit One Arrives September 15](https://lm-kit.com/blog/lm-kit-one-arrives-september-15/)
+- [Lm Kit One Is Here](https://lm-kit.com/blog/lm-kit-one-is-here/)
+- [Lmkit Goes Multimodal](https://lm-kit.com/blog/lmkit-goes-multimodal/)
+- [Lmkit Made Embedding Storage Effortless](https://lm-kit.com/blog/lmkit-made-embedding-storage-effortless/)
+- [Notify](https://lm-kit.com/blog/notify/)
+- [Private Ai Or Local Ai](https://lm-kit.com/blog/private-ai-or-local-ai/)
+- [Private Ai Stack Is The Product](https://lm-kit.com/blog/private-ai-stack-is-the-product/)
+- [Tool Calling For Local Agents](https://lm-kit.com/blog/tool-calling-for-local-agents/)
+## Company and legal
+- [Company](https://lm-kit.com/company/)
+- [EULA](https://lm-kit.com/legal/eula/)
+- [Legal Notice](https://lm-kit.com/legal/legal-notice/)
+- [Privacy Policy](https://lm-kit.com/legal/privacy/)
+- [Support](https://lm-kit.com/support/)
+- [Trust](https://lm-kit.com/trust/)
+- [Agentic Document Workflows](https://lm-kit.com/use-cases/agentic-document-workflows/)
+- [Ai Assistants](https://lm-kit.com/use-cases/ai-assistants/)
+- [Assistants With Memory](https://lm-kit.com/use-cases/assistants-with-memory/)
+- [Business Translation](https://lm-kit.com/use-cases/business-translation/)
+- [Compliance Monitoring](https://lm-kit.com/use-cases/compliance-monitoring/)
+- [Customer Support](https://lm-kit.com/use-cases/customer-support/)
+- [Digital Archiving](https://lm-kit.com/use-cases/digital-archiving/)
+- [Enterprise Search](https://lm-kit.com/use-cases/enterprise-search/)
+- [Financial Reports](https://lm-kit.com/use-cases/financial-reports/)
+- [Invoice Extraction](https://lm-kit.com/use-cases/invoice-extraction/)
+- [Meeting Transcription](https://lm-kit.com/use-cases/meeting-transcription/)
+- [Multi Agent Document Review](https://lm-kit.com/use-cases/multi-agent-document-review/)
+- [Multi Tenant Search](https://lm-kit.com/use-cases/multi-tenant-search/)
+- [Pii Review And Redaction](https://lm-kit.com/use-cases/pii-review-and-redaction/)
+- [Private Knowledge](https://lm-kit.com/use-cases/private-knowledge/)
+- [Scientific Papers](https://lm-kit.com/use-cases/scientific-papers/)

@@ -1,23 +1,85 @@
 aid: lm-kit
+
 name: LM-Kit
-description: 'LM-Kit is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://lm-kit.com/img/brand/og-default.png
+
+description: 'LM-Kit provides private AI infrastructure for enterprises, offering LM-Kit One as a self‑hosted AI application server and LM-Kit.NET as an embedded runtime for .NET applications. It enables running models, agents, retrieval‑augmented generation, search, and document intelligence within your own infrastructure, ensuring data privacy and control. Part of the Calico IIM Group, LM‑Kit focuses on secure, on‑premise AI solutions for businesses.'
+
 url: https://raw.githubusercontent.com/api-evangelist/lm-kit/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- AI
+- Private
+- Enterprise
+- Infrastructure
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: TermsOfService
+  url: https://lm-kit.com/legal/legal-notice/
+- type: Plans
+  url: plans/lm-kit-plans-pricing.yml
+- type: LLMsTxt
+  url: llms/lm-kit-llms.txt
+- type: SecurityTxt
+  url: well-known/lm-kit-security.txt
+- type: WellKnown
+  url: well-known/lm-kit-well-known.yml
+- type: Hosts
+  url: hosts/lm-kit-hosts.yml
+- type: TrustCenter
+  url: https://lm-kit.com/trust/
+- type: Support
+  url: https://lm-kit.com/support/
+- type: Security
+  url: https://lm-kit.com/products/lm-kit-one/security/
+- type: GitHubOrganization
+  url: https://github.com/LM-Kit
+- type: ChangeLog
+  url: https://docs.lm-kit.com/lm-kit-one/changelog/index.html
+- type: GettingStarted
+  url: https://lm-kit.com/quickstart/
 - type: Website
   url: https://lm-kit.com/
+- type: Documentation
+  url: https://docs.lm-kit.com/
+- type: Blog
+  url: https://lm-kit.com/blog/
+- type: Pricing
+  url: https://lm-kit.com/pricing
+- type: PrivacyPolicy
+  url: https://lm-kit.com/legal/privacy
+- type: VulnerabilityDisclosure
+  url: security/lm-kit-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/lm-kit-domain-security.yml
+- type: Website
+  url: https://lm-kit.com/
+
+apis: []
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 13
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

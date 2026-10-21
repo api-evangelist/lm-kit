@@ -1,0 +1,26 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://lm-kit.com/pricing/
+sources:
+- https://lm-kit.com/pricing/
+name: LM-Kit pricing
+audience: business-product
+pricing_basis: free
+plans:
+- name: Free
+  price_text: $0 no key, no expiry
+  price: 0
+  description: Free below the thresholds. Commercial above them. Evaluation and development are free at any company size, with no time limit.
+- name: Professional
+  price_text: Custom annual, scaled to scope
+  description: Professional License required above the thresholds, scoped to your application or deployment. Priced on scope, not on developers
+    or end users.
+  features:
+  - Production and redistribution rights
+  - Long‑term support builds and security patches
+  - Support with response‑time commitments
+  limits:
+  - name: Free thresholds
+    limit_text: Under $1M USD annual gross revenue, 10 or fewer employees, No more than $3M USD raised from outside investors
+docs: https://lm-kit.com/pricing/

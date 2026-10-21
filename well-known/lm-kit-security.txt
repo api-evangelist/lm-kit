@@ -1,0 +1,5 @@
+Contact: mailto:security@lm-kit.com
+Policy: https://lm-kit.com/trust/
+Canonical: https://lm-kit.com/.well-known/security.txt
+Preferred-Languages: en, fr
+Expires: 2027-08-18T00:00:00.000Z

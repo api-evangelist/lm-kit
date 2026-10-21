@@ -1,0 +1,40 @@
+generated: '2026-10-21'
+method: searched
+source: https://lm-kit.com/legal/privacy/
+signals:
+  data_retention:
+    evidence:
+      - source: https://lm-kit.com/legal/privacy/
+        http_status: 200
+        fetched: null
+        quote: "<li><strong>Enquiries and prospect records:</strong> up to 3 years after our last exchange, then deleted.</li>"
+        note: Retains prospect records for up to three years.
+      - source: https://lm-kit.com/legal/privacy/
+        http_status: 200
+        fetched: null
+        quote: "<li><strong>Newsletter subscription:</strong> until you unsubscribe.</li>"
+        note: Retains newsletter data until user unsubscribes.
+      - source: https://lm-kit.com/legal/privacy/
+        http_status: 200
+        fetched: null
+        quote: "<li><strong>Analytics data:</strong> at most 14 months.</li>"
+        note: Analytics data retained for up to 14 months.
+      - source: https://lm-kit.com/legal/privacy/
+        http_status: 200
+        fetched: null
+        quote: "<li><strong>Server logs:</strong> at most 13 months.</li>"
+        note: Server logs retained for up to 13 months.
+  data_subject_request:
+    evidence:
+      - source: https://lm-kit.com/legal/privacy/
+        http_status: 200
+        fetched: null
+        quote: "Under the GDPR you can ask for access to your data, rectification, erasure, restriction of processing, portability, and you can object to processing based on legitimate interest."
+        note: Provides GDPR data subject rights.
+  subprocessors:
+    evidence:
+      - source: https://lm-kit.com/legal/privacy/
+        http_status: 200
+        fetched: null
+        quote: "Microsoft, Google and Cloudflare may process limited data in the United States; all three participate in the EU-US Data Privacy Framework, and transfers are additionally covered by the European Commission's Standard Contractual Clauses where applicable."
+        note: Lists subprocessors and transfer mechanisms.
